@@ -23,7 +23,7 @@ def load_data():
                     "Heroin", "Ketamine", "Legalh", "LSD", "Meth",
                     "Mushrooms", "Nicotine", "Semer", "VSA"]
     # Chargement des données
-    data = pd.read_csv('C:/Users/user/OneDrive - De Vinci/Desktop/Semestre7/python for data/Projet/drug+consumption+quantified/drug_consumption.data', header=None, names=column_names)
+    data = pd.read_csv('drug_consumption.data', header=None, names=column_names)
     # Mapping for each column
     age_map = {-0.95197: "18-24", -0.07854: "25-34", 0.49788: "35-44", 1.09449: "45-54", 1.82213: "55-64", 2.59171: "65+"}
     gender_map = {0.48246: "Female", -0.48246: "Male"}
